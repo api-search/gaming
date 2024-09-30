@@ -1,0 +1,1254 @@
+{
+    "data":[
+    
+    
+    {
+    "name": "Bunq Activity Map Place API",
+    "slug": "bunq",
+    "description": "Managing activity map for a user account.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/activity-map-place-public",
+    "baseURL": "https://public-api.sandbox.bunq.com/",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-activity-map-place-public-itemid-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Transaction Categories API",
+    "slug": "bunq",
+    "description": "Manage additional information transactional categories.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/additional-transaction-information-category",
+    "baseURL": "https://public-api.sandbox.bunq.com/",
+    "tags": ["Additional","Categories","Information","Transactions","Users","Defined"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-additional-transaction-information-category-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Monetary Account API",
+    "slug": "bunq",
+    "description": "Managing different types of monetary accounts.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/monetary-account",
+    "baseURL": "https://public-api.sandbox.bunq.com/",
+    "tags": ["Accounts","Actions","Adyen","Allocate","Attachments","Auto","Bank","Batches","Cards","Cloud","Content","Conversions","Currencies","Customers","Definitions","Draft","Eal","Events","Exports","External","Filter","Fundraiser","Ideal","Inquiries","Instances","Invite","Invoices","Items","Joint","Mastercard","Merchants","Monetary","Notes","Notifications","Payments","Quotes","Responses","Results","Savings","Schedules","Services","Share","Statements","Switch","Tabs","Text","Transactions","URL","Users","Whitelist"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Attachments API",
+    "slug": "bunq",
+    "description": "An API for managing attachments associated with a Bunq account.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/attachment",
+    "baseURL": "https://public-api.sandbox.bunq.com/",
+    "tags": ["Attachments","Items","Users","Content"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-attachment-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Avatar API",
+    "slug": "bunq",
+    "description": "Avatars are public images used to represent you or your company. Avatars are used to represent users, monetary accounts and cash registers. Avatars cannot be deleted, only replaced. Avatars can be updated after uploading the image you would like to use through AttachmentPublic. Using the attachment_public_uuid which is returned you can update your Avatar. Avatars used for cash registers and company accounts will be reviewed by bunq.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/avatar",
+    "baseURL": "",
+    "tags": ["Avatars","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-avatar--openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Billing Contract Subscription API",
+    "slug": "bunq",
+    "description": "Manage all subscription billing contract for the authenticated user.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/billing-contract-subscription/List_all_BillingContractSubscription_for_User",
+    "baseURL": "",
+    "tags": ["Billing","Contracts","Subscriptions","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-billing-contract-subscription-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Fundraiser Profile API",
+    "slug": "bunq",
+    "description": "The /me profile for the Bunq user.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/bunqme-fundraiser-profile/READ_BunqmeFundraiserProfile_for_User",
+    "baseURL": "",
+    "tags": ["Fundraiser","Items","Profiles","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Oauth Client API",
+    "slug": "bunq",
+    "description": "For managing OAuth clients through an API.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/",
+    "baseURL": "",
+    "tags": ["Callback","Clients","Items","OAuth","URL","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-oauth-client-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Card API",
+    "slug": "bunq",
+    "description": "Managing cards and transactions made via cards.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/card",
+    "baseURL": "",
+    "tags": ["Cards","Items","Users","Batches","Replace","Credit","Debit","Names","Content","Exports","Statements","CSV","PDF","Generated"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-card-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Certificate Pinning API",
+    "slug": "bunq",
+    "description": "Managing the pinned certificates for a user.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/certificate-pinned",
+    "baseURL": "",
+    "tags": ["Certificates","Pinned","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-certificate-pinned-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Challenge Request API",
+    "slug": "bunq",
+    "description": "Managing the challenge requests for a user.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/challenge-request",
+    "baseURL": "",
+    "tags": ["Challenges","Items","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-challenge-request-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Company API",
+    "slug": "bunq",
+    "description": "Managing details of an accounts company information.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/company",
+    "baseURL": "",
+    "tags": ["Companies","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-company-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Confirmation Of Funds API",
+    "slug": "bunq",
+    "description": "Used to confirm availability of funds on an account.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/confirmation-of-funds/CREATE_ConfirmationOfFunds_for_User",
+    "baseURL": "",
+    "tags": ["Confirmation","Funds","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-confirmation-of-funds-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Chat Conversation API",
+    "slug": "bunq",
+    "description": "Managing the chat conversations for a user account.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/content/List_all_Content_for_User_ChatConversation_Attachment",
+    "baseURL": "",
+    "tags": ["Attachments","Chat","Content","Conversations","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-chat-conversation-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Attachment Content API",
+    "slug": "bunq",
+    "description": "Used to manage the attachment content for an A/PI.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/content",
+    "baseURL": "",
+    "tags": ["Attachments","Content","Public"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Export Annual Overview API",
+    "slug": "bunq",
+    "description": "Used to retrieve the raw content of an annual overview.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/content/List_all_Content_for_User_ExportAnnualOverview",
+    "baseURL": "",
+    "tags": ["Annual","Content","Exports","Overview","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-export-annual-overview-openapi-original.yml"},{"type":"Documentation","url":"https://doc.bunq.com/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Credential Password Ip API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Credentials","IP","Items","Password","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-credential-password-ip-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Currency Cloud Beneficiary API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-currency-cloud-beneficiary-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Device API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Device","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-device--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Device Server API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Device","Items","Servers"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-device-server--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Event API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Events","Items","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-event-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Feature Announcement API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Announcement","Feature","Items","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-feature-announcement-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Insight Preference Date API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Dates","Insights","Preferences","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-insight-preference-date-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Insights API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Insights","Users","Search"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-insights-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Installation API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Installations","Items","Keys","Public","Servers"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-installation--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Invoice API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Invoices","Users","Items","Content","PDF"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-invoice-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Legal Name API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Legal","Names","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-legal-name-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Limit API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Limits","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-limit-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Monetary Account Bank API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Bank","Monetary","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-bank-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Monetary Account Card API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Cards","Items","Monetary","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-card-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Monetary Account External API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "https://doc.bunq.com/#/monetary-account-external",
+    "baseURL": "",
+    "tags": ["Accounts","External","Monetary","Users","Items","Savings"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-external-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Monetary Account Joint API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Joint","Monetary","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-joint-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Monetary Account Savings API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Monetary","Savings","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-monetary-account-savings-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Company User Company Name API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Companies","Names","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-company-user-companyid-name-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Notification Filter Email API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Emails","Filter","Notifications","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-notification-filter-email-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Notification Filter Failure API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Failure","Filter","Notifications","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-notification-filter-failure-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Notification Filter Push API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Filter","Notifications","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-notification-filter-push-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Notification Filter Url API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Filter","Notifications","URL","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-notification-filter-url-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Payment Auto Allocate API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Allocate","Auto","Payments","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-payment-auto-allocate-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Payment Service Provider Credential API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Credentials","Er","Items","Payments","Prov","Providers","Services"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-payment-service-provider-credential--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Payment Service Provider Draft Payment API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Draft","Er","Payments","Prov","Providers","Services","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-payment-service-provider-draft-payment-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Payment Service Provider Issuer Transaction API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Er","Issuer","Payments","Prov","Providers","Services","Transactions","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-payment-service-provider-issuer-transaction-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Registry Import Splitwise Csv API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-registry-import-splitwise-csv--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Registry API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Registries","Settlements","Users","Items"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-registry-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Sandbox User Company API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-sandbox-user-company--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Sandbox User Person API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-sandbox-user-person--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Schedule API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Schedules","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-schedule-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Server Error API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-server-error--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Installation Installation Server Public Key API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Installations","Keys","Public","Servers"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-installation-installationid-server-public-key-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Session Item API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-session-itemid--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq Session Server API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-session-server--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Share Invite Monetary Account Response API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Invite","Items","Monetary","Share","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-share-invite-monetary-account-response-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Token Qr Request Eal API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Ideal","Tokens","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-token-qr-request-ideal-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Token Qr Request Sofort API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Tokens","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-token-qr-request-sofort-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Transferwise Currency API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Currencies","Transferwise","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-transferwise-currency-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Transferwise Quote API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Quotes","Transferwise","Users","Items","Temporary","Recipient","Requirements","Transfers"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-transferwise-quote-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Transferwise User API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Transferwise","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-transferwise-user-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Tree Progress API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Progress","Trees","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-tree-progress-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Item API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-itemid--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Company Item API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-company-itemid--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Payment Service Provider Item API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-payment-service-provider-itemid--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Person Item API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-person-itemid--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Bunq User Whitelist Sdd API",
+    "slug": "bunq",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Items","Users","Whitelist","Recurring"],
+    "properties": [{"type":"OpenAPI","url":"properties/bunq-user-userid-whitelist-sdd-openapi-original.yml"}],
+    "common": null
+    }
+    ,
+    
+    {
+    "name": "Plaid Asset Report API",
+    "slug": "plaid",
+    "description": "Create, delete, retrieve and share Asset Reports with information about a user's assets and transactions.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/assets/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Assets","Reports","PDF","Refresh","Filter","Audit","Copy","Credit","Endpoints","Format","Freddie"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-asset-report--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/assets/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Base Report API",
+    "slug": "plaid",
+    "description": "API for retrieving a base report for an account.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/check/api/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Accounts","Applicants","Applications","Bank","Base","CRA","Cash","Data","Decisions","Flows","Income","Information","Insights","Loan","Loans","Partners","Register","Reports","Unregister","Used","Verification"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-cra--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Consumer Report API",
+    "slug": "plaid",
+    "description": "Consumer Report provides lenders, property managers, and buy now pay later providers real-time visibility into a borrower’s finances, along with signals only made possible through our vantage point as the leading open banking network.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/check/api/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-consumer-report-pdf-get--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Statements API",
+    "slug": "plaid",
+    "description": "API reference for Statements endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/statements/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Associated","Items","Statements","Download","Single","Data","Refresh"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-statements--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/statements/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Item API",
+    "slug": "plaid",
+    "description": "API reference for retrieving and deleting Items.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/items/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Access","Access Token","Accounts","Activity","Applications","Ate","Connected","Consent","Errors","Events","Exchange","Fire","Force","Historical","Import","Inval","Invalidate","Items","Login","Logs","Public","Reset","Sandbox","Scopes","Sets","States","Status","Tests","Tokens","URL","Unlink","Users","User’s","Verification","Webhooks"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-item--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/items/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Application API",
+    "slug": "plaid",
+    "description": "For managing application data.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/items/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-application--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/items/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Profile API",
+    "slug": "plaid",
+    "description": "Use to manage Plaid profile data.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-profile--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Auth API",
+    "slug": "plaid",
+    "description": "Retrieve bank account information to set up electronic funds transfers, such as ACH payments in the US, EFT payments in Canada, BACS payments in the UK, and IBAN / SIC payments in the EU.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/auth/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-auth--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/auth/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Transactions API",
+    "slug": "plaid",
+    "description": "Retrieve and refresh up to 24 months of historical transaction data, including geolocation, merchant, and category information.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/transactions/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-transactions--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/transactions/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Institutions API",
+    "slug": "plaid",
+    "description": "Institutions endpoints support querying all institutions, as well as looking up a single institution to retrieve up-to-date information about its health status and capabilities. This can be useful for apps whose business logic may depend on institution capabilities, such as Payment Initiation. API-provided institution health data can also be used for in-app UIs.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/institutions/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-institutions--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/institutions/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Accounts API",
+    "slug": "plaid",
+    "description": "API reference for retrieving account information and seeing all possible account types and subtypes",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/accounts/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-accounts--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/accounts/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Categories API",
+    "slug": "plaid",
+    "description": "To access detailed information on categories returned by Plaid, simply make a request to the /categories/get endpoint of the API.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/transactions/#categoriesget",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-categories--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/transactions/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Sandbox API",
+    "slug": "plaid",
+    "description": "The Plaid Sandbox is a free and fully-featured environment for application development and testing. All Plaid functionality of both the Plaid API and Plaid Link is supported in the Sandbox environment. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/sandbox/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-sandbox--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/sandbox/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Accounts API",
+    "slug": "plaid",
+    "description": "API reference for retrieving account information and seeing all possible account types and subtypes",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/accounts/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Accounts","Balance","Data","Real Time"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-accounts--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/accounts/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Entity API - DELETE",
+    "slug": "plaid",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-identity--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Dashboard User API",
+    "slug": "plaid",
+    "description": "The Plaid Dashboard Activity Log shows the past 14 days of API activity. Using the dashboard, you can see a record of all requests and responses, as well as all webhooks sent by the Plaid API, and all Link events.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/account/activity/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Dashboard","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-dashboard-user--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/account/activity/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Entity Verification API",
+    "slug": "plaid",
+    "description": "API reference for Identity Verification endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/identity-verification/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Entities","Identity","Verification","Verifications","Retry","Autofill"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-identity-verification--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Watchlist Screening API",
+    "slug": "plaid",
+    "description": "API reference for Monitor endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/monitor/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Entities","Screening","Watchlist","History","Screenings","Hit","Hits","Program","Programs","Reviews","Indiv","Person","Ual","Individual"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-watchlist-screening--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Beacon API",
+    "slug": "plaid",
+    "description": "API reference for Beacon endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/beacon/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Accounts","Bank","Beacon","Evaluate","Risk","Users","Reviews","Reports","Syndication","Syndications","Data","Identity","Duplicate","History"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-beacon--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/beacon/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Entity Verification API",
+    "slug": "plaid",
+    "description": "API reference for Identity Verification endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/identity-verification/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Entities","Identity","Verification","Verifications","Retry","Autofill"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-identity-verification--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/identity-verification/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Processor API",
+    "slug": "plaid",
+    "description": "Partner processor endpoints are used by Plaid partners to integrate with Plaid. Instead of using an access_token associated with a Plaid Item, these endpoints use a processor_token to identify a single financial account. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/processor-partners/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Authentication","Data","Processor","Accounts","Associated","Tokens","Transactions","Incremental","Sync","Refresh","Fetch","Recurring","Streams","ACH","Evaluate","Planned","Signals","Decision","Initiated","Reports","Whether","Opt In","Prepare","Bank","Transfers","Liabilities","Entities","Identity","Match","Scores","Balance","Access","Controls","Permissions","Processor's","Products","Sets","Token's","URL","Webhooks","Stripe","Apex"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-processor--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/processor-partners/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Webhook Verification API",
+    "slug": "plaid",
+    "description": "Plaid signs all outgoing webhooks so that you can verify the authenticity of any incoming webhooks to your application. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/webhooks/webhook-verification/",
+    "baseURL": "https://production.plaid.com",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-webhook-verification--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/webhooks/webhook-verification/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Liabilities API",
+    "slug": "plaid",
+    "description": "API reference for Liabilities endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/liabilities/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Data","Liabilities","Processor"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-liabilities--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/liabilities/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Payment Initiation API",
+    "slug": "plaid",
+    "description": "Make payment transfers from your app. Plaid supports both domestic payments denominated in local currencies and international payments, generally denominated in Euro. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/payment-initiation/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Initiation","Payments","Recipient","Existing","Reverse","Recipients","Tokens","Consent","Revoke","Execute","Single","Using","Details"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-payment-initiation--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/payment-initiation/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Beacon API",
+    "slug": "plaid",
+    "description": "API reference for Beacon endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/beacon/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Beacon","Users","Reviews","Data","Identity","History","Information"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-user--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/beacon/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Credit API",
+    "slug": "plaid",
+    "description": "API reference for credit endpoints and webhooks",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/assets/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Audit","Copy","Credit","Tokens","Link","Sessions","Users","Assets","Income","Reports","Endpoints","Format","Freddie","(VOE)","(aka","Assets),","Available","Employment","VOA","Verification","Accounts","Bank","Beta","Information","Used","PDF","Refresh","Notifications","Proactive","Profiles","Subscribe","Unsubscribe","Webhooks","Configurations","Documents","Parsing","Payroll","Data","Statements","Uploaded","Uploads","Document(s)","Fraud","Insights","Manually","Risk","Signals","Checks","Conversions","Eligibility","Optimize","Precheck","Individual's","Summaries","Digital","Clients","Partners","Relay","Share","Associated","Shared","(beta)"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-credit--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Investments API",
+    "slug": "plaid",
+    "description": "Needs descriptionView holdings and transactions from investment accounts.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/investments/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Holdings","Investments","Transactions","Data","Refresh","Authentication","Authorize","Needed","Transfers"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-investments--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/investments/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Deposit Switch API",
+    "slug": "plaid",
+    "description": "For managing deposit swtiches.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Deposit","Switch","Tokens","Alt","Exchange","Plaid","Using"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-deposit-switch--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Link API",
+    "slug": "plaid",
+    "description": "Use Link to connect to your users' financial accounts with the Plaid API",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/link/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Checks","Eligibility","Link","Profiles","Tokens","Correlation","Exchange","OAuth"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-link--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/link/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Transfer API",
+    "slug": "plaid",
+    "description": "API reference for Transfer endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/transfer/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Transfers","Recurring","Authorization","Cancels","(Deprecated)","Balance","Held","Plaid","Capabilities","Eligibility","Information","RTP","Configurations","Products","Ledgers","Available","Between","Distribute","Items","Move","Originators","Platforms","Deposit","Funds","Withdraw","Accounts","Associated","Funding","Originator","Metrics","Usage","Events","Sync","Sweep","Sweeps","Migrate","Intent","Invoke","Objects","UI","About","Historical","Repayment","Repayments","Included","Generate","Onboarding","Plaid Hosted","Questionnaires","URL","Behalf","Diligence","Submit","Documents","Uploads","Originator's","Status","Originators'","Refunds","Creating","Sandbox","Simulate","Converting","Pending","Creation","Triggers","Fire","Manually","Webhooks","Clock","Tests","Advance","Clocks"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-transfer--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/transfer/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Bank Transfer API",
+    "slug": "plaid",
+    "description": "API reference for Transfer endpoints and webhooks.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/transfer/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Bank","Processor","Transfers","Cancels","Events","Sync","Sweep","Sweeps","Accounts","Balance","Migrate","Sandbox","Simulate","Fire","Manually","Webhooks"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-bank-transfer--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/transfer/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Employers API",
+    "slug": "plaid",
+    "description": "API for managingn employer information.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/income/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Databases","Employer","Employers","Search"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-employers--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/income/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Income API",
+    "slug": "plaid",
+    "description": "Verify income and paystubs with Income.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/income/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["(Deprecated)","Income","Instances","Verification","Information","Paystubs","Used","Documents","Download","Original","Taxes","Taxforms","Checks","Conversions","Digital","Eligibility","Optimize","Precheck","Fire","Manually","Sandbox","Webhooks"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-income--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/income/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Beta API",
+    "slug": "plaid",
+    "description": "Beta API operations that are available.",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Accounts","Bank","Beta","Credit","Employment","Information","Used","Verification","Data","Enhance","Locally Held","Transactions","Categories","Rules","Access","Associated","Items","Tokens","/transactions/enrich","Based","Insights","Obtain","Sent","Users"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-beta--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Signal API",
+    "slug": "plaid",
+    "description": "Assess the return risk of an ACH debit to prevent NSFs and other returns",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/signal/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["ACH","Evaluate","Planned","Processor","Signals","Transactions","Decision","Initiated","Reports","Whether","Opt In","Prepare","Tokens","Items","Opt In"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-signal--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/signal/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Wallet API",
+    "slug": "plaid",
+    "description": "API reference for Virtual Accounts endpoints and webhooks",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/products/virtual-accounts/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["E Wallet","Wallet","E Wallet","Fetch","E Wallets","E Wallet","Execute","Transactions","Using","E Wallet","E Wallet"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-wallet--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/products/virtual-accounts/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Paymet Profile API - DELETE",
+    "slug": "plaid",
+    "description": "Needs description.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-paymet-profile--openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Sandb ox API",
+    "slug": "plaid",
+    "description": "The Plaid Sandbox is a free and fully-featured environment for application development and testing. All Plaid functionality of both the Plaid API and Plaid Link is supported in the Sandbox environment. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/sandbox/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Login","Payments","Profiles","Reset","Sandbox"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-payment-profile--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/payment-initiation/add-to-app/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Partner API",
+    "slug": "plaid",
+    "description": "Create and manage end customers",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/api/partner/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Creates","Customers","Partners","Plaid","Reseller","Reseller's","Enable","Enables","Environments","Production","Given","Information","Institutions","OAuth","OAuth Institution","Registrations"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-partner--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/api/partner/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid Link Delivery API",
+    "slug": "plaid",
+    "description": "Hosted Link is the easiest and fastest way to integrate with Plaid. With Hosted Link, Plaid hosts the Link experience. Customers can use this link in web browsers or open it in a secure web context within a mobile app, eliminating the need for front-end implementation work. ",
+    "image": "",
+    "humanURL": "https://plaid.com/docs/link/hosted-link/",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Deliveries","Hosted","Link","Sessions"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-link-delivery--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.com/docs/link/hosted-link/"}],
+    "common": null
+    },
+    
+    {
+    "name": "Plaid FDX API",
+    "slug": "plaid",
+    "description": "The Core Exchange API specifications are a subset of the Financial Data Exchange (FDX) API specification, the usage thereof (or any part thereof) constitutes acceptance of the FDX API License Agreement, which can be found at https://financialdataexchange.org/.",
+    "image": "",
+    "humanURL": "https://plaid.github.io/core-exchange/api-versions/six-dot-zero",
+    "baseURL": "https://production.plaid.com",
+    "tags": ["Fdx","Notifications","Receiver","Webhooks"],
+    "properties": [{"type":"OpenAPI","url":"properties/plaid-fdx--openapi-original.yml"},{"type":"Documentation","url":"https://plaid.github.io/core-exchange/api-versions/six-dot-zero"}],
+    "common": null
+    }
+    ]
+    }

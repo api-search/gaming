@@ -1,0 +1,3356 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> - Apis</title>
+    <link href="http://localhost:4000/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:4000/assets/sticky-footer.css" rel="stylesheet">
+    <link href="http://localhost:4000/assets/bootstrap-toggle.min.css" rel="stylesheet"> 
+    <script src="http://localhost:4000/assets/jquery-3.7.1.min.js"></script> 
+    <script src="http://localhost:4000/assets/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost:4000/assets/bootstrap-toggle.min.js"></script>  
+    <script src="http://localhost:4000/assets/js-yaml.min.js"></script>    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H4KFSEF6P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6H4KFSEF6P');
+    </script>     
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://apis.io/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/about/">About</a>
+            </li>   
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/apis/">APIs</a>
+            </li> 
+                                                            
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/network/">Network</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/support/">Support</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/blog/">Blog</a>
+            </li>                     
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/add/">Add</a>
+            </li>                                                
+          </ul>
+          
+            <!--
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+           
+        </div>
+      </div>
+    </nav>
+    <!--
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      This Search is in an Alpha Stage -- <a href="https://github.com/api-search/explore/issues">Submit An Issue</a>!
+    </div>
+    -->
+    <div class="container my-5">
+      <div class="uk-section">
+    <div class="uk-container uk-container-xlarge">
+        <article class="uk-article">       
+            
+                     
+            
+            <div class="article-content">
+                <div style="border: 0px solid #000; width: 100%; padding: 0px; margin: 0px; border-radius: 25px;" id="map-plaid-shell">
+                    
+                    
+                    
+                    <h1 class="uk-article-title">Plaid (<a href="https://raw.githubusercontent.com/api-search/banking/main/_apis/plaid/apis.md">APIs.json</a>)</h1>                 
+                    <p style="width: 75%;">Plaid is focused on democratizing financial services through technology. We build beautiful consumer experiences, developer-friendly infrastructure, and intelligent tools that give everyone the ability to create amazing products that solve big problems.</p>  
+                    
+
+                        <a name="Plaid Asset Report API"></a>
+                        <h3>Plaid Asset Report API</h3>
+                        <p>Create, delete, retrieve and share Asset Reports with information about a user's assets and transactions.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/assets/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-asset-report--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/assets/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Assets</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>PDF</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                            
+                                
+                                    <li>Filter</li>
+                                
+                            
+                                
+                                    <li>Audit</li>
+                                
+                            
+                                
+                                    <li>Copy</li>
+                                
+                            
+                                
+                                    <li>Credit</li>
+                                
+                            
+                                
+                                    <li>Endpoints</li>
+                                
+                            
+                                
+                                    <li>Format</li>
+                                
+                            
+                                
+                                    <li>Freddie</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Base Report API"></a>
+                        <h3>Plaid Base Report API</h3>
+                        <p>API for retrieving a base report for an account.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/check/api/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-cra--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Applicants</li>
+                                
+                            
+                                
+                                    <li>Applications</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Base</li>
+                                
+                            
+                                
+                                    <li>CRA</li>
+                                
+                            
+                                
+                                    <li>Cash</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Decisions</li>
+                                
+                            
+                                
+                                    <li>Flows</li>
+                                
+                            
+                                
+                                    <li>Income</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>Insights</li>
+                                
+                            
+                                
+                                    <li>Loan</li>
+                                
+                            
+                                
+                                    <li>Loans</li>
+                                
+                            
+                                
+                                    <li>Partners</li>
+                                
+                            
+                                
+                                    <li>Register</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Unregister</li>
+                                
+                            
+                                
+                                    <li>Used</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Consumer Report API"></a>
+                        <h3>Plaid Consumer Report API</h3>
+                        <p>Consumer Report provides lenders, property managers, and buy now pay later providers real-time visibility into a borrower’s finances, along with signals only made possible through our vantage point as the leading open banking network.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/check/api/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-consumer-report-pdf-get--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Statements API"></a>
+                        <h3>Plaid Statements API</h3>
+                        <p>API reference for Statements endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/statements/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-statements--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/statements/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Associated</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Statements</li>
+                                
+                            
+                                
+                                    <li>Download</li>
+                                
+                            
+                                
+                                    <li>Single</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Item API"></a>
+                        <h3>Plaid Item API</h3>
+                        <p>API reference for retrieving and deleting Items.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/items/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-item--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/items/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Access</li>
+                                
+                            
+                                
+                                    <li>Access Token</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Activity</li>
+                                
+                            
+                                
+                                    <li>Applications</li>
+                                
+                            
+                                
+                                    <li>Ate</li>
+                                
+                            
+                                
+                                    <li>Connected</li>
+                                
+                            
+                                
+                                    <li>Consent</li>
+                                
+                            
+                                
+                                    <li>Errors</li>
+                                
+                            
+                                
+                                    <li>Events</li>
+                                
+                            
+                                
+                                    <li>Exchange</li>
+                                
+                            
+                                
+                                    <li>Fire</li>
+                                
+                            
+                                
+                                    <li>Force</li>
+                                
+                            
+                                
+                                    <li>Historical</li>
+                                
+                            
+                                
+                                    <li>Import</li>
+                                
+                            
+                                
+                                    <li>Inval</li>
+                                
+                            
+                                
+                                    <li>Invalidate</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Login</li>
+                                
+                            
+                                
+                                    <li>Logs</li>
+                                
+                            
+                                
+                                    <li>Public</li>
+                                
+                            
+                                
+                                    <li>Reset</li>
+                                
+                            
+                                
+                                    <li>Sandbox</li>
+                                
+                            
+                                
+                                    <li>Scopes</li>
+                                
+                            
+                                
+                                    <li>Sets</li>
+                                
+                            
+                                
+                                    <li>States</li>
+                                
+                            
+                                
+                                    <li>Status</li>
+                                
+                            
+                                
+                                    <li>Tests</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>URL</li>
+                                
+                            
+                                
+                                    <li>Unlink</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                            
+                                
+                                    <li>User’s</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Application API"></a>
+                        <h3>Plaid Application API</h3>
+                        <p>For managing application data.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/items/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-application--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/items/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Profile API"></a>
+                        <h3>Plaid Profile API</h3>
+                        <p>Use to manage Plaid profile data.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-profile--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Auth API"></a>
+                        <h3>Plaid Auth API</h3>
+                        <p>Retrieve bank account information to set up electronic funds transfers, such as ACH payments in the US, EFT payments in Canada, BACS payments in the UK, and IBAN / SIC payments in the EU.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/auth/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-auth--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/auth/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Transactions API"></a>
+                        <h3>Plaid Transactions API</h3>
+                        <p>Retrieve and refresh up to 24 months of historical transaction data, including geolocation, merchant, and category information.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/transactions/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-transactions--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/transactions/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Institutions API"></a>
+                        <h3>Plaid Institutions API</h3>
+                        <p>Institutions endpoints support querying all institutions, as well as looking up a single institution to retrieve up-to-date information about its health status and capabilities. This can be useful for apps whose business logic may depend on institution capabilities, such as Payment Initiation. API-provided institution health data can also be used for in-app UIs.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/institutions/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-institutions--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/institutions/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Accounts API"></a>
+                        <h3>Plaid Accounts API</h3>
+                        <p>API reference for retrieving account information and seeing all possible account types and subtypes</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/accounts/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-accounts--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/accounts/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Categories API"></a>
+                        <h3>Plaid Categories API</h3>
+                        <p>To access detailed information on categories returned by Plaid, simply make a request to the /categories/get endpoint of the API.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/transactions/#categoriesget">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-categories--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/transactions/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Sandbox API"></a>
+                        <h3>Plaid Sandbox API</h3>
+                        <p>The Plaid Sandbox is a free and fully-featured environment for application development and testing. All Plaid functionality of both the Plaid API and Plaid Link is supported in the Sandbox environment. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/sandbox/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-sandbox--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/sandbox/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Accounts API"></a>
+                        <h3>Plaid Accounts API</h3>
+                        <p>API reference for retrieving account information and seeing all possible account types and subtypes</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/accounts/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-accounts--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/accounts/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Real Time</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Entity API - DELETE"></a>
+                        <h3>Plaid Entity API - DELETE</h3>
+                        <p>Needs description.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-identity--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Dashboard User API"></a>
+                        <h3>Plaid Dashboard User API</h3>
+                        <p>The Plaid Dashboard Activity Log shows the past 14 days of API activity. Using the dashboard, you can see a record of all requests and responses, as well as all webhooks sent by the Plaid API, and all Link events.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/account/activity/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-dashboard-user--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/account/activity/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Dashboard</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Entity Verification API"></a>
+                        <h3>Plaid Entity Verification API</h3>
+                        <p>API reference for Identity Verification endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/identity-verification/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-identity-verification--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Entities</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Verifications</li>
+                                
+                            
+                                
+                                    <li>Retry</li>
+                                
+                            
+                                
+                                    <li>Autofill</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Watchlist Screening API"></a>
+                        <h3>Plaid Watchlist Screening API</h3>
+                        <p>API reference for Monitor endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/monitor/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-watchlist-screening--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Entities</li>
+                                
+                            
+                                
+                                    <li>Screening</li>
+                                
+                            
+                                
+                                    <li>Watchlist</li>
+                                
+                            
+                                
+                                    <li>History</li>
+                                
+                            
+                                
+                                    <li>Screenings</li>
+                                
+                            
+                                
+                                    <li>Hit</li>
+                                
+                            
+                                
+                                    <li>Hits</li>
+                                
+                            
+                                
+                                    <li>Program</li>
+                                
+                            
+                                
+                                    <li>Programs</li>
+                                
+                            
+                                
+                                    <li>Reviews</li>
+                                
+                            
+                                
+                                    <li>Indiv</li>
+                                
+                            
+                                
+                                    <li>Person</li>
+                                
+                            
+                                
+                                    <li>Ual</li>
+                                
+                            
+                                
+                                    <li>Individual</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Beacon API"></a>
+                        <h3>Plaid Beacon API</h3>
+                        <p>API reference for Beacon endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/beacon/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-beacon--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/beacon/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Beacon</li>
+                                
+                            
+                                
+                                    <li>Evaluate</li>
+                                
+                            
+                                
+                                    <li>Risk</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                            
+                                
+                                    <li>Reviews</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Syndication</li>
+                                
+                            
+                                
+                                    <li>Syndications</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>Duplicate</li>
+                                
+                            
+                                
+                                    <li>History</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Entity Verification API"></a>
+                        <h3>Plaid Entity Verification API</h3>
+                        <p>API reference for Identity Verification endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/identity-verification/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-identity-verification--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/identity-verification/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Entities</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Verifications</li>
+                                
+                            
+                                
+                                    <li>Retry</li>
+                                
+                            
+                                
+                                    <li>Autofill</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Processor API"></a>
+                        <h3>Plaid Processor API</h3>
+                        <p>Partner processor endpoints are used by Plaid partners to integrate with Plaid. Instead of using an access_token associated with a Plaid Item, these endpoints use a processor_token to identify a single financial account. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/processor-partners/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-processor--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/processor-partners/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Authentication</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Processor</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Associated</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Incremental</li>
+                                
+                            
+                                
+                                    <li>Sync</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                            
+                                
+                                    <li>Fetch</li>
+                                
+                            
+                                
+                                    <li>Recurring</li>
+                                
+                            
+                                
+                                    <li>Streams</li>
+                                
+                            
+                                
+                                    <li>ACH</li>
+                                
+                            
+                                
+                                    <li>Evaluate</li>
+                                
+                            
+                                
+                                    <li>Planned</li>
+                                
+                            
+                                
+                                    <li>Signals</li>
+                                
+                            
+                                
+                                    <li>Decision</li>
+                                
+                            
+                                
+                                    <li>Initiated</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Whether</li>
+                                
+                            
+                                
+                                    <li>Opt In</li>
+                                
+                            
+                                
+                                    <li>Prepare</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Liabilities</li>
+                                
+                            
+                                
+                                    <li>Entities</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>Match</li>
+                                
+                            
+                                
+                                    <li>Scores</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Access</li>
+                                
+                            
+                                
+                                    <li>Controls</li>
+                                
+                            
+                                
+                                    <li>Permissions</li>
+                                
+                            
+                                
+                                    <li>Processor's</li>
+                                
+                            
+                                
+                                    <li>Products</li>
+                                
+                            
+                                
+                                    <li>Sets</li>
+                                
+                            
+                                
+                                    <li>Token's</li>
+                                
+                            
+                                
+                                    <li>URL</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                            
+                                
+                                    <li>Stripe</li>
+                                
+                            
+                                
+                                    <li>Apex</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Webhook Verification API"></a>
+                        <h3>Plaid Webhook Verification API</h3>
+                        <p>Plaid signs all outgoing webhooks so that you can verify the authenticity of any incoming webhooks to your application. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/webhooks/webhook-verification/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-webhook-verification--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/webhooks/webhook-verification/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Liabilities API"></a>
+                        <h3>Plaid Liabilities API</h3>
+                        <p>API reference for Liabilities endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/liabilities/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-liabilities--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/liabilities/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Liabilities</li>
+                                
+                            
+                                
+                                    <li>Processor</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Payment Initiation API"></a>
+                        <h3>Plaid Payment Initiation API</h3>
+                        <p>Make payment transfers from your app. Plaid supports both domestic payments denominated in local currencies and international payments, generally denominated in Euro. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/payment-initiation/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-payment-initiation--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/payment-initiation/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Initiation</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Recipient</li>
+                                
+                            
+                                
+                                    <li>Existing</li>
+                                
+                            
+                                
+                                    <li>Reverse</li>
+                                
+                            
+                                
+                                    <li>Recipients</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Consent</li>
+                                
+                            
+                                
+                                    <li>Revoke</li>
+                                
+                            
+                                
+                                    <li>Execute</li>
+                                
+                            
+                                
+                                    <li>Single</li>
+                                
+                            
+                                
+                                    <li>Using</li>
+                                
+                            
+                                
+                                    <li>Details</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Beacon API"></a>
+                        <h3>Plaid Beacon API</h3>
+                        <p>API reference for Beacon endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/beacon/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-user--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/beacon/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Beacon</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                            
+                                
+                                    <li>Reviews</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>History</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Credit API"></a>
+                        <h3>Plaid Credit API</h3>
+                        <p>API reference for credit endpoints and webhooks</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/assets/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-credit--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Audit</li>
+                                
+                            
+                                
+                                    <li>Copy</li>
+                                
+                            
+                                
+                                    <li>Credit</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Link</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                            
+                                
+                                    <li>Assets</li>
+                                
+                            
+                                
+                                    <li>Income</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Endpoints</li>
+                                
+                            
+                                
+                                    <li>Format</li>
+                                
+                            
+                                
+                                    <li>Freddie</li>
+                                
+                            
+                                
+                                    <li>(VOE)</li>
+                                
+                            
+                                
+                                    <li>(aka</li>
+                                
+                            
+                                
+                                    <li>Assets),</li>
+                                
+                            
+                                
+                                    <li>Available</li>
+                                
+                            
+                                
+                                    <li>Employment</li>
+                                
+                            
+                                
+                                    <li>VOA</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Beta</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>Used</li>
+                                
+                            
+                                
+                                    <li>PDF</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                            
+                                
+                                    <li>Notifications</li>
+                                
+                            
+                                
+                                    <li>Proactive</li>
+                                
+                            
+                                
+                                    <li>Profiles</li>
+                                
+                            
+                                
+                                    <li>Subscribe</li>
+                                
+                            
+                                
+                                    <li>Unsubscribe</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                            
+                                
+                                    <li>Configurations</li>
+                                
+                            
+                                
+                                    <li>Documents</li>
+                                
+                            
+                                
+                                    <li>Parsing</li>
+                                
+                            
+                                
+                                    <li>Payroll</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Statements</li>
+                                
+                            
+                                
+                                    <li>Uploaded</li>
+                                
+                            
+                                
+                                    <li>Uploads</li>
+                                
+                            
+                                
+                                    <li>Document(s)</li>
+                                
+                            
+                                
+                                    <li>Fraud</li>
+                                
+                            
+                                
+                                    <li>Insights</li>
+                                
+                            
+                                
+                                    <li>Manually</li>
+                                
+                            
+                                
+                                    <li>Risk</li>
+                                
+                            
+                                
+                                    <li>Signals</li>
+                                
+                            
+                                
+                                    <li>Checks</li>
+                                
+                            
+                                
+                                    <li>Conversions</li>
+                                
+                            
+                                
+                                    <li>Eligibility</li>
+                                
+                            
+                                
+                                    <li>Optimize</li>
+                                
+                            
+                                
+                                    <li>Precheck</li>
+                                
+                            
+                                
+                                    <li>Individual's</li>
+                                
+                            
+                                
+                                    <li>Summaries</li>
+                                
+                            
+                                
+                                    <li>Digital</li>
+                                
+                            
+                                
+                                    <li>Clients</li>
+                                
+                            
+                                
+                                    <li>Partners</li>
+                                
+                            
+                                
+                                    <li>Relay</li>
+                                
+                            
+                                
+                                    <li>Share</li>
+                                
+                            
+                                
+                                    <li>Associated</li>
+                                
+                            
+                                
+                                    <li>Shared</li>
+                                
+                            
+                                
+                                    <li>(beta)</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Investments API"></a>
+                        <h3>Plaid Investments API</h3>
+                        <p>Needs descriptionView holdings and transactions from investment accounts.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/investments/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-investments--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/investments/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Holdings</li>
+                                
+                            
+                                
+                                    <li>Investments</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                            
+                                
+                                    <li>Authentication</li>
+                                
+                            
+                                
+                                    <li>Authorize</li>
+                                
+                            
+                                
+                                    <li>Needed</li>
+                                
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Deposit Switch API"></a>
+                        <h3>Plaid Deposit Switch API</h3>
+                        <p>For managing deposit swtiches.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-deposit-switch--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Deposit</li>
+                                
+                            
+                                
+                                    <li>Switch</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Alt</li>
+                                
+                            
+                                
+                                    <li>Exchange</li>
+                                
+                            
+                                
+                                    <li>Plaid</li>
+                                
+                            
+                                
+                                    <li>Using</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Link API"></a>
+                        <h3>Plaid Link API</h3>
+                        <p>Use Link to connect to your users' financial accounts with the Plaid API</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/link/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-link--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/link/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Checks</li>
+                                
+                            
+                                
+                                    <li>Eligibility</li>
+                                
+                            
+                                
+                                    <li>Link</li>
+                                
+                            
+                                
+                                    <li>Profiles</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Correlation</li>
+                                
+                            
+                                
+                                    <li>Exchange</li>
+                                
+                            
+                                
+                                    <li>OAuth</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Transfer API"></a>
+                        <h3>Plaid Transfer API</h3>
+                        <p>API reference for Transfer endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/transfer/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-transfer--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/transfer/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Recurring</li>
+                                
+                            
+                                
+                                    <li>Authorization</li>
+                                
+                            
+                                
+                                    <li>Cancels</li>
+                                
+                            
+                                
+                                    <li>(Deprecated)</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Held</li>
+                                
+                            
+                                
+                                    <li>Plaid</li>
+                                
+                            
+                                
+                                    <li>Capabilities</li>
+                                
+                            
+                                
+                                    <li>Eligibility</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>RTP</li>
+                                
+                            
+                                
+                                    <li>Configurations</li>
+                                
+                            
+                                
+                                    <li>Products</li>
+                                
+                            
+                                
+                                    <li>Ledgers</li>
+                                
+                            
+                                
+                                    <li>Available</li>
+                                
+                            
+                                
+                                    <li>Between</li>
+                                
+                            
+                                
+                                    <li>Distribute</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Move</li>
+                                
+                            
+                                
+                                    <li>Originators</li>
+                                
+                            
+                                
+                                    <li>Platforms</li>
+                                
+                            
+                                
+                                    <li>Deposit</li>
+                                
+                            
+                                
+                                    <li>Funds</li>
+                                
+                            
+                                
+                                    <li>Withdraw</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Associated</li>
+                                
+                            
+                                
+                                    <li>Funding</li>
+                                
+                            
+                                
+                                    <li>Originator</li>
+                                
+                            
+                                
+                                    <li>Metrics</li>
+                                
+                            
+                                
+                                    <li>Usage</li>
+                                
+                            
+                                
+                                    <li>Events</li>
+                                
+                            
+                                
+                                    <li>Sync</li>
+                                
+                            
+                                
+                                    <li>Sweep</li>
+                                
+                            
+                                
+                                    <li>Sweeps</li>
+                                
+                            
+                                
+                                    <li>Migrate</li>
+                                
+                            
+                                
+                                    <li>Intent</li>
+                                
+                            
+                                
+                                    <li>Invoke</li>
+                                
+                            
+                                
+                                    <li>Objects</li>
+                                
+                            
+                                
+                                    <li>UI</li>
+                                
+                            
+                                
+                                    <li>About</li>
+                                
+                            
+                                
+                                    <li>Historical</li>
+                                
+                            
+                                
+                                    <li>Repayment</li>
+                                
+                            
+                                
+                                    <li>Repayments</li>
+                                
+                            
+                                
+                                    <li>Included</li>
+                                
+                            
+                                
+                                    <li>Generate</li>
+                                
+                            
+                                
+                                    <li>Onboarding</li>
+                                
+                            
+                                
+                                    <li>Plaid Hosted</li>
+                                
+                            
+                                
+                                    <li>Questionnaires</li>
+                                
+                            
+                                
+                                    <li>URL</li>
+                                
+                            
+                                
+                                    <li>Behalf</li>
+                                
+                            
+                                
+                                    <li>Diligence</li>
+                                
+                            
+                                
+                                    <li>Submit</li>
+                                
+                            
+                                
+                                    <li>Documents</li>
+                                
+                            
+                                
+                                    <li>Uploads</li>
+                                
+                            
+                                
+                                    <li>Originator's</li>
+                                
+                            
+                                
+                                    <li>Status</li>
+                                
+                            
+                                
+                                    <li>Originators'</li>
+                                
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                            
+                                
+                                    <li>Creating</li>
+                                
+                            
+                                
+                                    <li>Sandbox</li>
+                                
+                            
+                                
+                                    <li>Simulate</li>
+                                
+                            
+                                
+                                    <li>Converting</li>
+                                
+                            
+                                
+                                    <li>Pending</li>
+                                
+                            
+                                
+                                    <li>Creation</li>
+                                
+                            
+                                
+                                    <li>Triggers</li>
+                                
+                            
+                                
+                                    <li>Fire</li>
+                                
+                            
+                                
+                                    <li>Manually</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                            
+                                
+                                    <li>Clock</li>
+                                
+                            
+                                
+                                    <li>Tests</li>
+                                
+                            
+                                
+                                    <li>Advance</li>
+                                
+                            
+                                
+                                    <li>Clocks</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Bank Transfer API"></a>
+                        <h3>Plaid Bank Transfer API</h3>
+                        <p>API reference for Transfer endpoints and webhooks.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/transfer/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-bank-transfer--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/transfer/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Processor</li>
+                                
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Cancels</li>
+                                
+                            
+                                
+                                    <li>Events</li>
+                                
+                            
+                                
+                                    <li>Sync</li>
+                                
+                            
+                                
+                                    <li>Sweep</li>
+                                
+                            
+                                
+                                    <li>Sweeps</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Migrate</li>
+                                
+                            
+                                
+                                    <li>Sandbox</li>
+                                
+                            
+                                
+                                    <li>Simulate</li>
+                                
+                            
+                                
+                                    <li>Fire</li>
+                                
+                            
+                                
+                                    <li>Manually</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Employers API"></a>
+                        <h3>Plaid Employers API</h3>
+                        <p>API for managingn employer information.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/income/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-employers--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/income/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Databases</li>
+                                
+                            
+                                
+                                    <li>Employer</li>
+                                
+                            
+                                
+                                    <li>Employers</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Income API"></a>
+                        <h3>Plaid Income API</h3>
+                        <p>Verify income and paystubs with Income.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/income/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-income--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/income/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>(Deprecated)</li>
+                                
+                            
+                                
+                                    <li>Income</li>
+                                
+                            
+                                
+                                    <li>Instances</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>Paystubs</li>
+                                
+                            
+                                
+                                    <li>Used</li>
+                                
+                            
+                                
+                                    <li>Documents</li>
+                                
+                            
+                                
+                                    <li>Download</li>
+                                
+                            
+                                
+                                    <li>Original</li>
+                                
+                            
+                                
+                                    <li>Taxes</li>
+                                
+                            
+                                
+                                    <li>Taxforms</li>
+                                
+                            
+                                
+                                    <li>Checks</li>
+                                
+                            
+                                
+                                    <li>Conversions</li>
+                                
+                            
+                                
+                                    <li>Digital</li>
+                                
+                            
+                                
+                                    <li>Eligibility</li>
+                                
+                            
+                                
+                                    <li>Optimize</li>
+                                
+                            
+                                
+                                    <li>Precheck</li>
+                                
+                            
+                                
+                                    <li>Fire</li>
+                                
+                            
+                                
+                                    <li>Manually</li>
+                                
+                            
+                                
+                                    <li>Sandbox</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Beta API"></a>
+                        <h3>Plaid Beta API</h3>
+                        <p>Beta API operations that are available.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-beta--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Beta</li>
+                                
+                            
+                                
+                                    <li>Credit</li>
+                                
+                            
+                                
+                                    <li>Employment</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>Used</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Data</li>
+                                
+                            
+                                
+                                    <li>Enhance</li>
+                                
+                            
+                                
+                                    <li>Locally Held</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Categories</li>
+                                
+                            
+                                
+                                    <li>Rules</li>
+                                
+                            
+                                
+                                    <li>Access</li>
+                                
+                            
+                                
+                                    <li>Associated</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>/transactions/enrich</li>
+                                
+                            
+                                
+                                    <li>Based</li>
+                                
+                            
+                                
+                                    <li>Insights</li>
+                                
+                            
+                                
+                                    <li>Obtain</li>
+                                
+                            
+                                
+                                    <li>Sent</li>
+                                
+                            
+                                
+                                    <li>Users</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Signal API"></a>
+                        <h3>Plaid Signal API</h3>
+                        <p>Assess the return risk of an ACH debit to prevent NSFs and other returns</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/signal/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-signal--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/signal/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>ACH</li>
+                                
+                            
+                                
+                                    <li>Evaluate</li>
+                                
+                            
+                                
+                                    <li>Planned</li>
+                                
+                            
+                                
+                                    <li>Processor</li>
+                                
+                            
+                                
+                                    <li>Signals</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Decision</li>
+                                
+                            
+                                
+                                    <li>Initiated</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Whether</li>
+                                
+                            
+                                
+                                    <li>Opt In</li>
+                                
+                            
+                                
+                                    <li>Prepare</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Opt In</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Wallet API"></a>
+                        <h3>Plaid Wallet API</h3>
+                        <p>API reference for Virtual Accounts endpoints and webhooks</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/products/virtual-accounts/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-wallet--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/products/virtual-accounts/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>E Wallet</li>
+                                
+                            
+                                
+                                    <li>Wallet</li>
+                                
+                            
+                                
+                                    <li>E Wallet</li>
+                                
+                            
+                                
+                                    <li>Fetch</li>
+                                
+                            
+                                
+                                    <li>E Wallets</li>
+                                
+                            
+                                
+                                    <li>E Wallet</li>
+                                
+                            
+                                
+                                    <li>Execute</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Using</li>
+                                
+                            
+                                
+                                    <li>E Wallet</li>
+                                
+                            
+                                
+                                    <li>E Wallet</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Paymet Profile API - DELETE"></a>
+                        <h3>Plaid Paymet Profile API - DELETE</h3>
+                        <p>Needs description.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-paymet-profile--openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Sandb ox API"></a>
+                        <h3>Plaid Sandb ox API</h3>
+                        <p>The Plaid Sandbox is a free and fully-featured environment for application development and testing. All Plaid functionality of both the Plaid API and Plaid Link is supported in the Sandbox environment. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/sandbox/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-payment-profile--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/payment-initiation/add-to-app/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Login</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Profiles</li>
+                                
+                            
+                                
+                                    <li>Reset</li>
+                                
+                            
+                                
+                                    <li>Sandbox</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Partner API"></a>
+                        <h3>Plaid Partner API</h3>
+                        <p>Create and manage end customers</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/api/partner/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-partner--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/api/partner/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Creates</li>
+                                
+                            
+                                
+                                    <li>Customers</li>
+                                
+                            
+                                
+                                    <li>Partners</li>
+                                
+                            
+                                
+                                    <li>Plaid</li>
+                                
+                            
+                                
+                                    <li>Reseller</li>
+                                
+                            
+                                
+                                    <li>Reseller's</li>
+                                
+                            
+                                
+                                    <li>Enable</li>
+                                
+                            
+                                
+                                    <li>Enables</li>
+                                
+                            
+                                
+                                    <li>Environments</li>
+                                
+                            
+                                
+                                    <li>Production</li>
+                                
+                            
+                                
+                                    <li>Given</li>
+                                
+                            
+                                
+                                    <li>Information</li>
+                                
+                            
+                                
+                                    <li>Institutions</li>
+                                
+                            
+                                
+                                    <li>OAuth</li>
+                                
+                            
+                                
+                                    <li>OAuth Institution</li>
+                                
+                            
+                                
+                                    <li>Registrations</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid Link Delivery API"></a>
+                        <h3>Plaid Link Delivery API</h3>
+                        <p>Hosted Link is the easiest and fastest way to integrate with Plaid. With Hosted Link, Plaid hosts the Link experience. Customers can use this link in web browsers or open it in a secure web context within a mobile app, eliminating the need for front-end implementation work. </p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.com/docs/link/hosted-link/">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-link-delivery--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.com/docs/link/hosted-link/">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Deliveries</li>
+                                
+                            
+                                
+                                    <li>Hosted</li>
+                                
+                            
+                                
+                                    <li>Link</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Plaid FDX API"></a>
+                        <h3>Plaid FDX API</h3>
+                        <p>The Core Exchange API specifications are a subset of the Financial Data Exchange (FDX) API specification, the usage thereof (or any part thereof) constitutes acceptance of the FDX API License Agreement, which can be found at https://financialdataexchange.org/.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="https://plaid.github.io/core-exchange/api-versions/six-dot-zero">Human URL</a></li>
+                            
+                                <li><a href="https://production.plaid.com">Base URL</a></li>
+                            
+                            
+                                <li><a href="properties/plaid-fdx--openapi-original.yml">OpenAPI</a></li>
+                            
+                                <li><a href="https://plaid.github.io/core-exchange/api-versions/six-dot-zero">Documentation</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Fdx</li>
+                                
+                            
+                                
+                                    <li>Notifications</li>
+                                
+                            
+                                
+                                    <li>Receiver</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                                
+                        </ul>                                                                   
+                                                         
+                    
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+</div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+              <div class="col">
+                <a href="http://apicommons.org" style="color: #000;">API Commons</a>
+              </div>
+              <div class="col">
+                <td><a href="https://developer.apis.io" style="color: #000;">Developers</a></td>
+              </div>
+              <div class="col">
+                <a href="https://github.com/api-search/api-search" style="color: #000;">GitHub</a>
+              </div>     
+          </div>
+      </div>         
+      </div>
+    </footer>
+    
+  </body>
+</html>
